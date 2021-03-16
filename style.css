@@ -1,17 +1,56 @@
-body {
-    background-color: rgb(30, 145, 218);
+.cim{
+    padding-top: 50px;
+}
+#div {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    width: 500px;
-    height: 800px;
-    position: center;
-    left: 80%;
-    top: 80%;
-    margin: -200px 0 0 -250px;
+    border: rgb(99, 168, 247) 15px solid;
+    width: fit-content;
+    height: 100%;
+    margin: auto;
+   
 }
 
-#navbarNavAltMarkup {
-    color: rgb(30, 145, 218);
-    text-decoration: none;
+body {
+    background-color: rgb(107, 150, 241);
 }
+
+.div2 {
+    border: rgb(152, 180, 255) 10px solid;
+}
+
+/* The navigation bar */
+.navbar {
+    color: black;
+    overflow: hidden;
+    background-color:  rgb(83, 116, 153);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000833;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background:#145ee9;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+  button{
+    color:rgb(0, 18, 39);
+    background-color:rgb(69, 92, 119) ;
+  }
+
+  
